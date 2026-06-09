@@ -1,11 +1,12 @@
-print('Esse é meu primeiro comando')
 
-x = 5
+x = 2
 
-print('Esse é meu segundo comando')
-
-x = 6
-
-print('Esse é meu terceiro comando')
-
-print(f'a variavel x agora vale {x}')
+if x < 0:
+    x = 0
+    print('This number is negative')
+elif x == 0:
+    print('This number is zero')
+elif x == 1:
+    print('This number is single')
+else:
+    print('This number is more')    
