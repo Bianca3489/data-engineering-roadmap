@@ -57,4 +57,4 @@ if a + b > c and a + c > b and b + c > a:
     else:
         print('Os comprimentos formam um triângulo escaleno.')
 else:
-    print('As retas não podem formar um triângulo.')
+    print('As retas não podem formar um triângulo.')ßß
