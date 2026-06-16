@@ -54,7 +54,7 @@
 # mostrando em seguida o primeiro e o último nome separadamente. 
 #  Exemplo: Entrada: Maria Oliveira Silva, Saída: Maria Silva
 
-import exercicios
-nome = input('Digite seu nome completo: ').strip()
-print('Primeiro nome: ', nome.split()[0])
-print('Último nome: ', nome.split()[-1])
+# import exercicios
+# nome = input('Digite seu nome completo: ').strip()
+# print('Primeiro nome: ', nome.split()[0])
+# print('Último nome: ', nome.split()[-1])
