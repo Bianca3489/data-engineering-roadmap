@@ -41,3 +41,20 @@ if distancia <= 200:
 else:
     preco_passagem = distancia * 0.45
     print(f'Sua viagem é longa e o valor da sua passagem é de R$ {preco_passagem:.2f}')
+
+# Exercício Python 35: Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.
+
+a = int(input('Digite o comprimento da primeira reta: '))
+b = int(input('Digite o comprimento da segunda reta: '))
+c = int(input('Digite o comprimento da terceira reta: '))
+
+if a + b > c and a + c > b and b + c > a:
+    print('As retas podem formar um triângulo.')
+    if a == b == c:
+        print('Os comprimentos formam um triângulo equilátero.')
+    elif a == b or a == c or b == c:
+        print('Os comprimentos formam um triângulo isósceles.')
+    else:
+        print('Os comprimentos formam um triângulo escaleno.')
+else:
+    print('As retas não podem formar um triângulo.')
