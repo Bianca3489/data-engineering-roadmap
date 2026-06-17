@@ -6,23 +6,22 @@
 
 # Exemplos:
 
-# for i in range(10):
-#     print(i)
+for i in range(10):
+    print(i)
 
-# for i in range(1,10,2):
-#     print(i)
+for i in range(1,10,2):
+    print(i)
     
-# for i in range(10,-1,-1):
-#     print("Contagem regressiva: ", i)
-# print("Fim do Programa") 
+for i in range(10,-1,-1):
+    print("Contagem regressiva: ", i)
+print("Fim do Programa") 
 
-# n = int(input("Digite um número para ver a tabuada: "))
+n = int(input("Digite um número para ver a tabuada: "))
 
-# for i in range(1, 11):
-#     print(f"{n} x {i:2} = {n * i}")
+for i in range(1, 11):
+    print(f"{n} x {i:2} = {n * i}")
 
 s = 0
-
 for i in range (0 , 3):
     n = int(input("Digite um número: ")) 
     s += n 
