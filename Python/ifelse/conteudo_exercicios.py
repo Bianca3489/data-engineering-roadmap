@@ -1,3 +1,57 @@
+# Condições aninhadas
+
+# Conceito de condições aninhadas
+
+# Estrutura de decisão onde uma estrutura de decisão está dentro de outra.
+# A indentação é fundamental para que o código funcione.
+# A lógica é que se a primeira condição for verdadeira, a segunda condição será verificada.
+
+# Exemplo:
+
+idade = int(input('Digite sua idade: '))
+
+if idade >= 18:
+    print('Você é maior de idade.')
+    if idade >= 60:
+        print('Você é idoso.')
+    else:
+        print('Você é adulto.')
+else:
+    print('Você é menor de idade.')
+
+
+# Exemplo 2:
+
+num = int(input('Digite um número: '))
+
+if num % 2 == 0:
+    print('O número é par.')
+    if num % 3 == 0:
+        print('O número é divisível por 3.')
+    else:
+        print('O número não é divisível por 3.')
+else:
+    print('O número é ímpar.')
+
+
+# Exemplo 3 aninhada:
+
+numero = int(input("Digite um número: "))
+
+if numero > 0:
+    print("O número é positivo.")
+    if numero % 2 == 0:
+        print("E também é par.")
+    else:
+        print("E também é ímpar.")
+elif numero < 0:
+    print("O número é negativo.")
+else:
+    print("O número é zero.")
+
+
+
+
 # Exercício Python 28: Escreva um programa que faça o computador “pensar” em um número inteiro entre 0 e 5 
 # e peça para o usuário tentar descobrir qual foi o número escolhido pelo computador. 
 # O programa deverá escrever na tela se o usuário venceu ou perdeu. 
@@ -57,4 +111,6 @@ if a + b > c and a + c > b and b + c > a:
     else:
         print('Os comprimentos formam um triângulo escaleno.')
 else:
-    print('As retas não podem formar um triângulo.')ßß
+    print('As retas não podem formar um triângulo.')
+
+
