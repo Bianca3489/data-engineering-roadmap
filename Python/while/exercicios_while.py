@@ -44,13 +44,18 @@
 
 
 #  Python 57: Faça um programa que leia o sexo de uma pessoa, mas só aceite os valores ‘M’ ou ‘F’  
-# Caso esteja errado, peça a digitação novamente até ter um valor correto.
+# e conte os valores de M e F e imprima a quantide de cada um. Só saia do codigo quando alguem digitar um valor diferente de M ou F.
+
+Feminino = 0
+Masculino = 0
 
 while True:
     sexo = input("Digite o sexo (M/F): ").upper()
-    if sexo == 'M' or sexo == 'F':
-        break
+    if sexo == "M":
+        Masculino = Masculino + 1
+    elif sexo == "F":
+        Feminino = Feminino + 1
     else:
-        print("Sexo inválido! Digite M ou F.")   
-
-print(f"Sexo digitado: {sexo}")
+        break
+print(f"Quantidade de Homens: {Masculino}")
+print(f"Quantidade de Mulheres: {Feminino}")
